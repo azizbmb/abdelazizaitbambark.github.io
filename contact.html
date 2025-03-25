@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ingénieur Cybersécurité - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">MOI</a></li>
+                <li><a href="competences.html">COMPÉTENCES</a></li>
+                <li class="active"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="contact-intro animate-fade">
+            <h1>ME CONTACTER</h1>
+            <div class="cyber-line"></div>
+            <p>Disponible pour des missions de conseil, audits ou formations en cybersécurité</p>
+        </section>
+
+        <div class="contact-container">
+            <section class="contact-info animate-slide-up">
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>jean.dupont@cybersecurite.com</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-phone"></i></div>
+                    <h3>Téléphone</h3>
+                    <p>+33 6 12 34 56 78</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Localisation</h3>
+                    <p>Paris, France</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </section>
+
+            <section class="contact-form animate-slide-up">
+                <h3><span class="cyber-icon"><i class="fas fa-paper-plane"></i></span> ENVOYER UN MESSAGE</h3>
+                <form id="cyber-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Nom</label>
+                        <div class="cyber-underline"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                        <div class="cyber-underline"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Sujet</label>
+                        <div class="cyber-underline"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                        <div class="cyber-underline"></div>
+                    </div>
+
+                    <button type="submit" class="cyber-button">
+                        <span>Envoyer</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 CV Ingénieur Cybersécurité | Conçu avec <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
